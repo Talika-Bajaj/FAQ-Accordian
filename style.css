@@ -30,7 +30,7 @@ body {
     background-color: var(--White);
     border-radius: 15px;
     display: grid;
-    padding: 50px 22px;
+    padding: 50px 40px;
     grid-template-columns: auto;
     gap: 25px;
 }
