@@ -30,7 +30,7 @@ body {
     background-color: var(--White);
     border-radius: 15px;
     display: grid;
-    padding: 50px 40px;
+    padding: 40px 30px;
     grid-template-columns: auto;
     gap: 25px;
 }
@@ -39,12 +39,12 @@ body {
     display: flex;
     align-items: center;
     width: 100%;
-    gap: 15px;
+    gap: 25px;
     /* justify-content: space-between; */
 }
 
 .head h1 {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .questions li{
@@ -63,6 +63,7 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 30px;
+    margin-bottom: 12px;
     cursor: pointer;
 }
 
