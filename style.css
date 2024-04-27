@@ -43,6 +43,10 @@ body {
     /* justify-content: space-between; */
 }
 
+.head h1 {
+    font-size: 50px;
+}
+
 .questions li{
     /* margin: 12px; */
     padding: 15px;
@@ -75,4 +79,5 @@ li {
 .answer {
     display: none;
     color: var(--Grayish_purple);
+    line-height: 1.5;
 }
