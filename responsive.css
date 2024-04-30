@@ -2,6 +2,7 @@
     body {
         background: var(--Light_pink) url(assets/images/background-pattern-desktop.svg) no-repeat;
     }
+
     .container {
         margin: 0;
     }
@@ -11,7 +12,7 @@
     .container {
         width: 675px;
     }
-   
+
 }
 
 
