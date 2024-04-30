@@ -5,9 +5,6 @@ const questions = document.getElementsByClassName('question');
 // console.log(questions);
 // console.log(plus);
 
-
-
-
 for (let index = 0; index < questions.length; index++) {
     
     const element = questions[index];
@@ -25,3 +22,4 @@ for (let index = 0; index < questions.length; index++) {
     })
     
 }
+

@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
@@ -11,6 +13,7 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 </head>
+
 <body>
   <main>
     <div class="container">
@@ -18,55 +21,56 @@
         <img src="assets/images/icon-star.svg" height="35" alt="">
         <h1>FAQs</h1>
       </div>
+
       <div class="questions">
-        <ul>
-          <li>
-            <div class="question">
-              <p>What is Frontend Mentor, and how will it help me?</p>
-              <p class="icon">
-                <img src="assets/images/icon-plus.svg" class='plus' alt="">
-              </p>
-            </div>
-            <p class="answer">Frontend Mentor offers realistic coding challenges to help developers improve their 
-              frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for all levels and ideal for portfolio building.</p>
-          </li>
-        <li>
-          <div class="question">
+
+        <details class="question" open>
+          <summary>
+            <p>What is Frontend Mentor, and how will it help me?</p>
+            <p class="icon">
+              <img src="assets/images/icon-minus.svg" class='plus' alt="">
+            </p>
+          </summary>
+          <p class="answer" style='display: block'>Frontend Mentor offers realistic coding challenges to help
+            developers improve their
+            frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for all levels and ideal
+            for portfolio building.</p>
+        </details>
+        <details class="question">
+          <summary>
             <p>Is Frontend Mentor free?</p>
             <p class="icon">
               <img src="assets/images/icon-plus.svg" class='plus' alt="">
             </p>
-          </div>
-          <p class="answer">Yes, Frontend Mentor offers both free and premium coding challenges, with the free 
+          </summary>
+          <p class="answer">Yes, Frontend Mentor offers both free and premium coding challenges, with the free
             option providing access to a range of projects suitable for all skill levels.</p>
-        </li>
-        <li>
-          <div class="question">
+        </details>
+        <details class="question">
+          <summary>
             <p>Can I use Frontend Mentor projects in my portfolio?</p>
             <p class="icon">
               <img src="assets/images/icon-plus.svg" class='plus' alt="">
             </p>
-          </div>
-          
+          </summary>
           <p class="answer">Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent
             way to showcase your skills to potential employers!</p>
-        </li>
-
-        <li>
-          <div class="question">
+        </details>
+        <details class="question">
+          <summary>
             <p>How can I get help if I'm stuck on a Frontend Mentor challenge?</p>
             <p class="icon">
               <img src="assets/images/icon-plus.svg" class='plus' alt="">
             </p>
-          </div>
-          <p class="answer">The best place to get help is inside Frontend Mentor's Discord community. There's a help 
-            channel where you can ask questions and seek support from other community members.</p>
-        </li>
-      </ul>
+          </summary>
+          <p class="answer">The best place to get help is inside Frontend Mentor's Discord community. There's a help
+            channel where you can ask questions and seek support from other community members..</p>
+        </details>
       </div>
     </div>
   </main>
 
   <script src="index.js"></script>
 </body>
+
 </html>

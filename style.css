@@ -30,6 +30,7 @@ body {
     background-color: var(--White);
     border-radius: 15px;
     display: grid;
+    margin: 40px 0;
     padding: 40px 30px;
     grid-template-columns: auto;
     gap: 25px;
@@ -47,6 +48,9 @@ body {
     font-size: 40px;
 }
 
+ul {
+    display: none;
+}
 .questions li{
     /* margin: 12px; */
     padding: 15px;
@@ -67,7 +71,7 @@ body {
     cursor: pointer;
 }
 
-.question p {
+summary p {
     color: var(--Dark_purple);
     font-weight: 600;
     font-size: 18px;
@@ -81,4 +85,35 @@ li {
     display: none;
     color: var(--Grayish_purple);
     line-height: 1.5;
+    padding-bottom: 15px;
+}
+
+.answer:first-child {
+    display: block !important;
+}
+
+
+details > p {
+    color: var(--Grayish_purple);
+    line-height: 1.5;
+}
+
+details > summary {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 12px 0;
+    cursor: pointer;
+}
+
+.ans {
+    color: var(--Grayish_purple) !important;
+    line-height: 1.5 !important;
+}
+details {
+
+    border-bottom: 1px solid var(--Light_pink);
 }
