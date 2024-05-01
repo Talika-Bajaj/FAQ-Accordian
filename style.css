@@ -58,22 +58,17 @@ body {
     cursor: pointer;
 }
 
-summary p {
+summary {
     color: var(--Dark_purple);
     font-weight: 600;
     font-size: 18px;
 }
 
-.answer {
-    display: none;
-    color: var(--Grayish_purple);
-    line-height: 1.5;
-    padding-bottom: 15px;
-}
-
 details>p {
     color: var(--Grayish_purple);
     line-height: 1.5;
+    padding-bottom: 15px;
+
 }
 
 details>summary {
